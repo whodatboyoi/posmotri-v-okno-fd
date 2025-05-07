@@ -86,6 +86,13 @@ ol {
 
 .title {
   margin-bottom: 26px;
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 94%;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .content__list {
@@ -111,6 +118,7 @@ ol {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .content__video-card {
@@ -128,7 +136,6 @@ ol {
 .content__video-card-description-container {
   flex-grow: 1;
   width: 196px;
-  height: 103px;
 }
 
 .search-form__fieldset-title {
@@ -140,26 +147,9 @@ ol {
   color: #FFFFFF;
 }
 
-.title {
-  font-family: 'Oswald', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 75px;
-  line-height: 94%;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
-
 .content__accent {
-  font-family: 'Oswald', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 75px;
-  line-height: 94%;
-  text-transform: uppercase;
   color: #545050;
 }
-
 
 .content__video-card-title {
   font-family: 'Oswald', sans-serif;
@@ -256,7 +246,7 @@ ol {
   background-color: #FFFFFF;
 }
 
-.search-form__label-text:hover {
+.search-form__label:hover {
   text-decoration: underline;
 }
 
