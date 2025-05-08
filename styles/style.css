@@ -246,7 +246,7 @@ ol {
   background-color: #FFFFFF;
 }
 
-.search-form__label:hover {
+.search-form__checkbox-list .search-form__label:hover {
   text-decoration: underline;
 }
 
